@@ -1,0 +1,95 @@
+* { margin: 0;
+padding: 0;
+ box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;}
+.navbar {background-color: #5498ba;
+    padding: 17px 60px;
+    display: flex;
+ justify-content: space-between;
+    align-items: center;
+    z-index: 10;}
+.navbar .logo img {max-width: 50px;
+    height: auto;}
+.navbar ul {list-style: none;
+    display: flex;
+    gap: 30px;}
+.navbar ul li a {color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;}
+.navbar ul li a:hover {color: 1a3340;}
+.hero {height: 100vh; 
+    background:
+url(../image/2.jpg) center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    overflow: hidden;}
+.hero-container { display: flex;
+    align-items: center;
+   justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 50px;
+    padding-bottom: 50px; }
+.hero-text {  flex: 1.2;
+    text-align: left;
+    color: #003cff;}
+.hero-text h1 {   font-size: 50px;
+    margin-bottom: 30px;
+    line-height: 1.2;}
+.hero-video {    flex: 1;
+    display: flex;
+    justify-content: center;}
+.hero-video video {width: 100%;
+    max-width: 550px;
+    border-radius: 20px;
+   box-shadow: 0 15px 35px 
+rgba(0,0,0,0.4);
+   border: 3px solid rgba(255, 255, 255, 0.3); }
+.boss-btn-group {  display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;}
+.boss-btn {display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+              transition: transform 0.2s ease-in-out;}
+.boss-btn img { width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);}
+.boss-name {margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;}
+.boss-btn:hover {transform: scale(1.1);}
+.author-tag {   position: fixed;
+    bottom: 15px;
+    left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 15px;
+    border-radius: 20px;
+    z-index: 1000;
+    pointer-events: none;}
+@media (max-width: 992px) { .navbar {padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px; }
+.hero { height: auto; 
+        min-height: 100vh;
+        overflow-y: auto;
+        padding: 40px 20px;    }
+.hero-container {flex-direction: column;
+        text-align: center;  }
+.hero-text {text-align: center;}
+.hero-text h1 {font-size: 32px;}
+.boss-btn-group { justify-content: center;}
+.hero-video video {max-width: 100%;}
+.author-tag {font-size: 1rem;
+        left: 50%;
+ transform: translateX(-50%);}}
