@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "SECTION I. LISTENING. For question 1-5, listen to an interview between a reporter and a student named Alex about his 'Plastic-Free' project. Choose the correct answer A, B, or C for each question. <br> <i>1. Why did Alex decide to start the 'Plastic-Free' project?</i>",
+    question: "SECTION I. LISTENING. For question 1-5, listen to an interview between a reporter and a student named Alex about his 'Plastic-Free' project. Circle the correct answer A, B, or C for each question. <br> <i>1. Why did Alex decide to start the 'Plastic-Free' project?</i>",
     audio: "../Grade 6/Audio/Grade 6.mp3",
     answers: [
       { text: "A. He saw a sad film about sea animals.", correct: false },
